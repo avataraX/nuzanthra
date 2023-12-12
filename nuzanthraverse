@@ -1,0 +1,10 @@
+# example.py
+
+def welcome_message(name):
+    return f"Welcome, {name}! This is an example code file."
+
+# Example Usage
+user_name = input("Enter your name: ")
+message = welcome_message(user_name)
+print(message)
+python example.py
